@@ -1,19 +1,21 @@
 {
-    "name": "FootPressureSensor",
+    "name": "pressuresensorlib",
     "version": "1.0.0",
-    "description": "冠拓电子足部压力传感器库",
+    "description": "MicroBit 压力传感器库，用于读取和处理压力传感器数据",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
         "main.ts"
     ],
+    "testFiles": [
+        "test.ts"
+    ],
     "public": true,
     "targetVersions": {
-        "target": "4.0.29",
+        "target": "6.0.25",
         "targetId": "microbit"
     },
     "supportedTargets": [
