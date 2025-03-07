@@ -2,6 +2,7 @@
  * PressureSensorLib - MicroBit 压力传感器库
  * 用于通过串口读取压力传感器数据
  */
+//% color="#ff6800" weight=100 icon="\uf192" block="压力传感器"
 namespace PressureSensorLib {
     // 常量定义
     export const FRAME_HEADER = 0xAA;
@@ -21,8 +22,11 @@ namespace PressureSensorLib {
 
     // 数据类型定义
     export enum FootType {
+        //% block="左脚"
         Left = 0x01,
+        //% block="右脚"
         Right = 0x02,
+        //% block="未知"
         Unknown = 0xFF
     }
 
